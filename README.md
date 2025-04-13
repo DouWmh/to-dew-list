@@ -21,7 +21,6 @@ Edit
 ├── companion/       # Phone companion code
 ├── resources/       # Images, fonts, views
 ├── settings/        # Optional app settings UI
-├── build-log.txt    # Auto-generated code log
 ├── package.json     # Project config and dependencies
 └── README.md        # You're here!
 ⚙️ Getting Started
@@ -40,11 +39,6 @@ bash
 Copy
 Edit
 fitbit install
-4. Log all project source files into build-log.txt (custom command)
-bash
-Copy
-Edit
-npm run log-files
 🧾 Sample Task Format (Sent from Companion)
 js
 Copy
