@@ -10,8 +10,6 @@ A simple Fitbit smartwatch app that displays and manages a to-do list synced fro
 
 🎨 Alternating colored task rows (blue, red, green, yellow)
 
-📂 Code logging with a build log file
-
 🛠 Project Structure
 bash
 Copy
