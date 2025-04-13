@@ -1,0 +1,12 @@
+<svg>
+  <rect id="bg0" x="10" y="36" width="300" rx="8" ry="8" height="32" fill="#444444"/>
+  <text class="defaultText" id="task0" x="20" y="60" font-size="24" text-length="250" />
+  
+  <rect id="bg1" x="10" y="76" width="300" rx="8" ry="8" height="32" fill="#444444"/>
+  <text class="defaultText" id="task1" x="20" y="100" font-size="24" text-length="250" />
+
+  <rect id="bg2" x="10" y="116" width="300" rx="8" ry="8" height="32" fill="#444444"/>
+  <text class="defaultText" id="task2" x="20" y="140" font-size="24" text-length="250" />
+</svg>
+
+
