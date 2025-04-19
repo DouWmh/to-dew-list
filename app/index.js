@@ -10,7 +10,7 @@ messaging.peerSocket.onmessage = (evt) => {
 };
 
 function displayTasks(tasks) {
-  const colors = ["blue", "red", "green", "yellow"];
+  const colors = ["blue", "red", "green", "yellow", "purple", "orange"];
 
   tasks.forEach((task, index) => {
     let textElement = document.getElementById(`task${index}`);
