@@ -1,27 +1,25 @@
-//App index.js
+import { taskList, enableTaskSlot } from "./components/Task";
 import document from "document";
-import * as messaging from "messaging";
 
-// Watch-side message handler
-messaging.peerSocket.onmessage = (evt) => {
-  if (evt.data && evt.data.type === "todo-list") {
-    displayTasks(evt.data.items);
+function renderTasks(tasks) {
+  for (let i = 0; i < 100; i++) {
+    const bg = document.getElementById(`bg${i}`);
+    const text = document.getElementById(`task${i}`);
+    const tap = document.getElementById(`tap${i}`);
+
+    const task = tasks[i];
+
+    if (!bg || !text || !tap) continue;
+
+    if (task) {
+      enableTaskSlot(task, i); // show and bind
+    } else {
+      // Hide unused slot
+      bg.style.display = "none";
+      text.style.display = "none";
+      tap.style.display = "none";
+    }
   }
-};
-
-function displayTasks(tasks) {
-  const colors = ["blue", "red", "green", "yellow", "purple", "orange"];
-
-  tasks.forEach((task, index) => {
-    let textElement = document.getElementById(`task${index}`);
-    let bgElement = document.getElementById(`bg${index}`);
-
-    if (textElement) {
-      textElement.text = `${task.done ? "✔" : "      "} ${task.title}`;
-    }
-
-    if (bgElement) {
-      bgElement.style.fill = colors[index % colors.length];
-    }
-  });
 }
+
+renderTasks(taskList);

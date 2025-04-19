@@ -1,12 +1,502 @@
-<svg>
-  <rect id="bg0" x="10" y="36" width="300" rx="8" ry="8" height="32" fill="#444444"/>
-  <text class="defaultText" id="task0" x="20" y="60" font-size="24" text-length="250" />
-  
-  <rect id="bg1" x="10" y="76" width="300" rx="8" ry="8" height="32" fill="#444444"/>
-  <text class="defaultText" id="task1" x="20" y="100" font-size="24" text-length="250" />
+<svg width="340" height="5070">
 
-  <rect id="bg2" x="10" y="116" width="300" rx="8" ry="8" height="32" fill="#444444"/>
-  <text class="defaultText" id="task2" x="20" y="140" font-size="24" text-length="250" />
+  <!-- Task 0 -->
+  <rect id="bg0" x="10" y="10" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task0" x="20" y="38" font-size="24" fill="white" text-length="250" />
+  <rect id="tap0" x="0" y="10" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 1 -->
+  <rect id="bg1" x="10" y="60" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task1" x="20" y="88" font-size="24" fill="white" text-length="250" />
+  <rect id="tap1" x="0" y="60" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 2 -->
+  <rect id="bg2" x="10" y="110" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task2" x="20" y="138" font-size="24" fill="white" text-length="250" />
+  <rect id="tap2" x="0" y="110" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 3 -->
+  <rect id="bg3" x="10" y="160" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task3" x="20" y="188" font-size="24" fill="white" text-length="250" />
+  <rect id="tap3" x="0" y="160" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 4 -->
+  <rect id="bg4" x="10" y="210" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task4" x="20" y="238" font-size="24" fill="white" text-length="250" />
+  <rect id="tap4" x="0" y="210" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 5 -->
+  <rect id="bg5" x="10" y="260" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task5" x="20" y="288" font-size="24" fill="white" text-length="250" />
+  <rect id="tap5" x="0" y="260" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 6 -->
+  <rect id="bg6" x="10" y="310" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task6" x="20" y="338" font-size="24" fill="white" text-length="250" />
+  <rect id="tap6" x="0" y="310" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 7 -->
+  <rect id="bg7" x="10" y="360" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task7" x="20" y="388" font-size="24" fill="white" text-length="250" />
+  <rect id="tap7" x="0" y="360" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 8 -->
+  <rect id="bg8" x="10" y="410" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task8" x="20" y="438" font-size="24" fill="white" text-length="250" />
+  <rect id="tap8" x="0" y="410" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 9 -->
+  <rect id="bg9" x="10" y="460" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task9" x="20" y="488" font-size="24" fill="white" text-length="250" />
+  <rect id="tap9" x="0" y="460" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 10 -->
+  <rect id="bg10" x="10" y="510" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task10" x="20" y="538" font-size="24" fill="white" text-length="250" />
+  <rect id="tap10" x="0" y="510" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 11 -->
+  <rect id="bg11" x="10" y="560" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task11" x="20" y="588" font-size="24" fill="white" text-length="250" />
+  <rect id="tap11" x="0" y="560" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 12 -->
+  <rect id="bg12" x="10" y="610" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task12" x="20" y="638" font-size="24" fill="white" text-length="250" />
+  <rect id="tap12" x="0" y="610" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 13 -->
+  <rect id="bg13" x="10" y="660" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task13" x="20" y="688" font-size="24" fill="white" text-length="250" />
+  <rect id="tap13" x="0" y="660" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 14 -->
+  <rect id="bg14" x="10" y="710" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task14" x="20" y="738" font-size="24" fill="white" text-length="250" />
+  <rect id="tap14" x="0" y="710" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 15 -->
+  <rect id="bg15" x="10" y="760" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task15" x="20" y="788" font-size="24" fill="white" text-length="250" />
+  <rect id="tap15" x="0" y="760" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 16 -->
+  <rect id="bg16" x="10" y="810" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task16" x="20" y="838" font-size="24" fill="white" text-length="250" />
+  <rect id="tap16" x="0" y="810" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 17 -->
+  <rect id="bg17" x="10" y="860" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task17" x="20" y="888" font-size="24" fill="white" text-length="250" />
+  <rect id="tap17" x="0" y="860" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 18 -->
+  <rect id="bg18" x="10" y="910" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task18" x="20" y="938" font-size="24" fill="white" text-length="250" />
+  <rect id="tap18" x="0" y="910" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 19 -->
+  <rect id="bg19" x="10" y="960" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task19" x="20" y="988" font-size="24" fill="white" text-length="250" />
+  <rect id="tap19" x="0" y="960" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 20 -->
+  <rect id="bg20" x="10" y="1010" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task20" x="20" y="1038" font-size="24" fill="white" text-length="250" />
+  <rect id="tap20" x="0" y="1010" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 21 -->
+  <rect id="bg21" x="10" y="1060" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task21" x="20" y="1088" font-size="24" fill="white" text-length="250" />
+  <rect id="tap21" x="0" y="1060" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 22 -->
+  <rect id="bg22" x="10" y="1110" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task22" x="20" y="1138" font-size="24" fill="white" text-length="250" />
+  <rect id="tap22" x="0" y="1110" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 23 -->
+  <rect id="bg23" x="10" y="1160" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task23" x="20" y="1188" font-size="24" fill="white" text-length="250" />
+  <rect id="tap23" x="0" y="1160" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 24 -->
+  <rect id="bg24" x="10" y="1210" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task24" x="20" y="1238" font-size="24" fill="white" text-length="250" />
+  <rect id="tap24" x="0" y="1210" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 25 -->
+  <rect id="bg25" x="10" y="1260" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task25" x="20" y="1288" font-size="24" fill="white" text-length="250" />
+  <rect id="tap25" x="0" y="1260" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 26 -->
+  <rect id="bg26" x="10" y="1310" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task26" x="20" y="1338" font-size="24" fill="white" text-length="250" />
+  <rect id="tap26" x="0" y="1310" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 27 -->
+  <rect id="bg27" x="10" y="1360" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task27" x="20" y="1388" font-size="24" fill="white" text-length="250" />
+  <rect id="tap27" x="0" y="1360" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 28 -->
+  <rect id="bg28" x="10" y="1410" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task28" x="20" y="1438" font-size="24" fill="white" text-length="250" />
+  <rect id="tap28" x="0" y="1410" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 29 -->
+  <rect id="bg29" x="10" y="1460" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task29" x="20" y="1488" font-size="24" fill="white" text-length="250" />
+  <rect id="tap29" x="0" y="1460" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 30 -->
+  <rect id="bg30" x="10" y="1510" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task30" x="20" y="1538" font-size="24" fill="white" text-length="250" />
+  <rect id="tap30" x="0" y="1510" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 31 -->
+  <rect id="bg31" x="10" y="1560" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task31" x="20" y="1588" font-size="24" fill="white" text-length="250" />
+  <rect id="tap31" x="0" y="1560" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 32 -->
+  <rect id="bg32" x="10" y="1610" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task32" x="20" y="1638" font-size="24" fill="white" text-length="250" />
+  <rect id="tap32" x="0" y="1610" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 33 -->
+  <rect id="bg33" x="10" y="1660" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task33" x="20" y="1688" font-size="24" fill="white" text-length="250" />
+  <rect id="tap33" x="0" y="1660" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 34 -->
+  <rect id="bg34" x="10" y="1710" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task34" x="20" y="1738" font-size="24" fill="white" text-length="250" />
+  <rect id="tap34" x="0" y="1710" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 35 -->
+  <rect id="bg35" x="10" y="1760" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task35" x="20" y="1788" font-size="24" fill="white" text-length="250" />
+  <rect id="tap35" x="0" y="1760" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 36 -->
+  <rect id="bg36" x="10" y="1810" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task36" x="20" y="1838" font-size="24" fill="white" text-length="250" />
+  <rect id="tap36" x="0" y="1810" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 37 -->
+  <rect id="bg37" x="10" y="1860" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task37" x="20" y="1888" font-size="24" fill="white" text-length="250" />
+  <rect id="tap37" x="0" y="1860" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 38 -->
+  <rect id="bg38" x="10" y="1910" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task38" x="20" y="1938" font-size="24" fill="white" text-length="250" />
+  <rect id="tap38" x="0" y="1910" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 39 -->
+  <rect id="bg39" x="10" y="1960" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task39" x="20" y="1988" font-size="24" fill="white" text-length="250" />
+  <rect id="tap39" x="0" y="1960" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 40 -->
+  <rect id="bg40" x="10" y="2010" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task40" x="20" y="2038" font-size="24" fill="white" text-length="250" />
+  <rect id="tap40" x="0" y="2010" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 41 -->
+  <rect id="bg41" x="10" y="2060" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task41" x="20" y="2088" font-size="24" fill="white" text-length="250" />
+  <rect id="tap41" x="0" y="2060" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 42 -->
+  <rect id="bg42" x="10" y="2110" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task42" x="20" y="2138" font-size="24" fill="white" text-length="250" />
+  <rect id="tap42" x="0" y="2110" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 43 -->
+  <rect id="bg43" x="10" y="2160" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task43" x="20" y="2188" font-size="24" fill="white" text-length="250" />
+  <rect id="tap43" x="0" y="2160" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 44 -->
+  <rect id="bg44" x="10" y="2210" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task44" x="20" y="2238" font-size="24" fill="white" text-length="250" />
+  <rect id="tap44" x="0" y="2210" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 45 -->
+  <rect id="bg45" x="10" y="2260" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task45" x="20" y="2288" font-size="24" fill="white" text-length="250" />
+  <rect id="tap45" x="0" y="2260" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 46 -->
+  <rect id="bg46" x="10" y="2310" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task46" x="20" y="2338" font-size="24" fill="white" text-length="250" />
+  <rect id="tap46" x="0" y="2310" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 47 -->
+  <rect id="bg47" x="10" y="2360" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task47" x="20" y="2388" font-size="24" fill="white" text-length="250" />
+  <rect id="tap47" x="0" y="2360" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 48 -->
+  <rect id="bg48" x="10" y="2410" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task48" x="20" y="2438" font-size="24" fill="white" text-length="250" />
+  <rect id="tap48" x="0" y="2410" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 49 -->
+  <rect id="bg49" x="10" y="2460" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task49" x="20" y="2488" font-size="24" fill="white" text-length="250" />
+  <rect id="tap49" x="0" y="2460" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 50 -->
+  <rect id="bg50" x="10" y="2510" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task50" x="20" y="2538" font-size="24" fill="white" text-length="250" />
+  <rect id="tap50" x="0" y="2510" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 51 -->
+  <rect id="bg51" x="10" y="2560" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task51" x="20" y="2588" font-size="24" fill="white" text-length="250" />
+  <rect id="tap51" x="0" y="2560" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 52 -->
+  <rect id="bg52" x="10" y="2610" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task52" x="20" y="2638" font-size="24" fill="white" text-length="250" />
+  <rect id="tap52" x="0" y="2610" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 53 -->
+  <rect id="bg53" x="10" y="2660" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task53" x="20" y="2688" font-size="24" fill="white" text-length="250" />
+  <rect id="tap53" x="0" y="2660" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 54 -->
+  <rect id="bg54" x="10" y="2710" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task54" x="20" y="2738" font-size="24" fill="white" text-length="250" />
+  <rect id="tap54" x="0" y="2710" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 55 -->
+  <rect id="bg55" x="10" y="2760" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task55" x="20" y="2788" font-size="24" fill="white" text-length="250" />
+  <rect id="tap55" x="0" y="2760" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 56 -->
+  <rect id="bg56" x="10" y="2810" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task56" x="20" y="2838" font-size="24" fill="white" text-length="250" />
+  <rect id="tap56" x="0" y="2810" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 57 -->
+  <rect id="bg57" x="10" y="2860" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task57" x="20" y="2888" font-size="24" fill="white" text-length="250" />
+  <rect id="tap57" x="0" y="2860" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 58 -->
+  <rect id="bg58" x="10" y="2910" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task58" x="20" y="2938" font-size="24" fill="white" text-length="250" />
+  <rect id="tap58" x="0" y="2910" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 59 -->
+  <rect id="bg59" x="10" y="2960" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task59" x="20" y="2988" font-size="24" fill="white" text-length="250" />
+  <rect id="tap59" x="0" y="2960" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 60 -->
+  <rect id="bg60" x="10" y="3010" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task60" x="20" y="3038" font-size="24" fill="white" text-length="250" />
+  <rect id="tap60" x="0" y="3010" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 61 -->
+  <rect id="bg61" x="10" y="3060" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task61" x="20" y="3088" font-size="24" fill="white" text-length="250" />
+  <rect id="tap61" x="0" y="3060" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 62 -->
+  <rect id="bg62" x="10" y="3110" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task62" x="20" y="3138" font-size="24" fill="white" text-length="250" />
+  <rect id="tap62" x="0" y="3110" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 63 -->
+  <rect id="bg63" x="10" y="3160" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task63" x="20" y="3188" font-size="24" fill="white" text-length="250" />
+  <rect id="tap63" x="0" y="3160" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 64 -->
+  <rect id="bg64" x="10" y="3210" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task64" x="20" y="3238" font-size="24" fill="white" text-length="250" />
+  <rect id="tap64" x="0" y="3210" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 65 -->
+  <rect id="bg65" x="10" y="3260" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task65" x="20" y="3288" font-size="24" fill="white" text-length="250" />
+  <rect id="tap65" x="0" y="3260" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 66 -->
+  <rect id="bg66" x="10" y="3310" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task66" x="20" y="3338" font-size="24" fill="white" text-length="250" />
+  <rect id="tap66" x="0" y="3310" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 67 -->
+  <rect id="bg67" x="10" y="3360" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task67" x="20" y="3388" font-size="24" fill="white" text-length="250" />
+  <rect id="tap67" x="0" y="3360" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 68 -->
+  <rect id="bg68" x="10" y="3410" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task68" x="20" y="3438" font-size="24" fill="white" text-length="250" />
+  <rect id="tap68" x="0" y="3410" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 69 -->
+  <rect id="bg69" x="10" y="3460" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task69" x="20" y="3488" font-size="24" fill="white" text-length="250" />
+  <rect id="tap69" x="0" y="3460" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 70 -->
+  <rect id="bg70" x="10" y="3510" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task70" x="20" y="3538" font-size="24" fill="white" text-length="250" />
+  <rect id="tap70" x="0" y="3510" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 71 -->
+  <rect id="bg71" x="10" y="3560" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task71" x="20" y="3588" font-size="24" fill="white" text-length="250" />
+  <rect id="tap71" x="0" y="3560" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 72 -->
+  <rect id="bg72" x="10" y="3610" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task72" x="20" y="3638" font-size="24" fill="white" text-length="250" />
+  <rect id="tap72" x="0" y="3610" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 73 -->
+  <rect id="bg73" x="10" y="3660" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task73" x="20" y="3688" font-size="24" fill="white" text-length="250" />
+  <rect id="tap73" x="0" y="3660" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 74 -->
+  <rect id="bg74" x="10" y="3710" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task74" x="20" y="3738" font-size="24" fill="white" text-length="250" />
+  <rect id="tap74" x="0" y="3710" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 75 -->
+  <rect id="bg75" x="10" y="3760" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task75" x="20" y="3788" font-size="24" fill="white" text-length="250" />
+  <rect id="tap75" x="0" y="3760" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 76 -->
+  <rect id="bg76" x="10" y="3810" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task76" x="20" y="3838" font-size="24" fill="white" text-length="250" />
+  <rect id="tap76" x="0" y="3810" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 77 -->
+  <rect id="bg77" x="10" y="3860" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task77" x="20" y="3888" font-size="24" fill="white" text-length="250" />
+  <rect id="tap77" x="0" y="3860" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 78 -->
+  <rect id="bg78" x="10" y="3910" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task78" x="20" y="3938" font-size="24" fill="white" text-length="250" />
+  <rect id="tap78" x="0" y="3910" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 79 -->
+  <rect id="bg79" x="10" y="3960" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task79" x="20" y="3988" font-size="24" fill="white" text-length="250" />
+  <rect id="tap79" x="0" y="3960" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 80 -->
+  <rect id="bg80" x="10" y="4010" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task80" x="20" y="4038" font-size="24" fill="white" text-length="250" />
+  <rect id="tap80" x="0" y="4010" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 81 -->
+  <rect id="bg81" x="10" y="4060" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task81" x="20" y="4088" font-size="24" fill="white" text-length="250" />
+  <rect id="tap81" x="0" y="4060" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 82 -->
+  <rect id="bg82" x="10" y="4110" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task82" x="20" y="4138" font-size="24" fill="white" text-length="250" />
+  <rect id="tap82" x="0" y="4110" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 83 -->
+  <rect id="bg83" x="10" y="4160" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task83" x="20" y="4188" font-size="24" fill="white" text-length="250" />
+  <rect id="tap83" x="0" y="4160" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 84 -->
+  <rect id="bg84" x="10" y="4210" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task84" x="20" y="4238" font-size="24" fill="white" text-length="250" />
+  <rect id="tap84" x="0" y="4210" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 85 -->
+  <rect id="bg85" x="10" y="4260" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task85" x="20" y="4288" font-size="24" fill="white" text-length="250" />
+  <rect id="tap85" x="0" y="4260" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 86 -->
+  <rect id="bg86" x="10" y="4310" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task86" x="20" y="4338" font-size="24" fill="white" text-length="250" />
+  <rect id="tap86" x="0" y="4310" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 87 -->
+  <rect id="bg87" x="10" y="4360" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task87" x="20" y="4388" font-size="24" fill="white" text-length="250" />
+  <rect id="tap87" x="0" y="4360" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 88 -->
+  <rect id="bg88" x="10" y="4410" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task88" x="20" y="4438" font-size="24" fill="white" text-length="250" />
+  <rect id="tap88" x="0" y="4410" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 89 -->
+  <rect id="bg89" x="10" y="4460" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task89" x="20" y="4488" font-size="24" fill="white" text-length="250" />
+  <rect id="tap89" x="0" y="4460" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 90 -->
+  <rect id="bg90" x="10" y="4510" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task90" x="20" y="4538" font-size="24" fill="white" text-length="250" />
+  <rect id="tap90" x="0" y="4510" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 91 -->
+  <rect id="bg91" x="10" y="4560" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task91" x="20" y="4588" font-size="24" fill="white" text-length="250" />
+  <rect id="tap91" x="0" y="4560" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 92 -->
+  <rect id="bg92" x="10" y="4610" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task92" x="20" y="4638" font-size="24" fill="white" text-length="250" />
+  <rect id="tap92" x="0" y="4610" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 93 -->
+  <rect id="bg93" x="10" y="4660" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task93" x="20" y="4688" font-size="24" fill="white" text-length="250" />
+  <rect id="tap93" x="0" y="4660" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 94 -->
+  <rect id="bg94" x="10" y="4710" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task94" x="20" y="4738" font-size="24" fill="white" text-length="250" />
+  <rect id="tap94" x="0" y="4710" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 95 -->
+  <rect id="bg95" x="10" y="4760" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task95" x="20" y="4788" font-size="24" fill="white" text-length="250" />
+  <rect id="tap95" x="0" y="4760" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 96 -->
+  <rect id="bg96" x="10" y="4810" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task96" x="20" y="4838" font-size="24" fill="white" text-length="250" />
+  <rect id="tap96" x="0" y="4810" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 97 -->
+  <rect id="bg97" x="10" y="4860" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task97" x="20" y="4888" font-size="24" fill="white" text-length="250" />
+  <rect id="tap97" x="0" y="4860" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 98 -->
+  <rect id="bg98" x="10" y="4910" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task98" x="20" y="4938" font-size="24" fill="white" text-length="250" />
+  <rect id="tap98" x="0" y="4910" width="348" height="40" fill="white" fill-opacity="0.01" />
+
+  <!-- Task 99 -->
+  <rect id="bg99" x="10" y="4960" width="320" height="40" rx="8" ry="8" fill="#444444" />
+  <text id="task99" x="20" y="4988" font-size="24" fill="white" text-length="250" />
+  <rect id="tap99" x="0" y="4960" width="348" height="40" fill="white" fill-opacity="0.01" />
 </svg>
-
-
