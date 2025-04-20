@@ -1,6 +1,5 @@
 import { taskList, enableTaskSlot } from "./components/Task";
 import document from "document";
-
 function renderTasks(tasks) {
   for (let i = 0; i < 100; i++) {
     const bg = document.getElementById(`bg${i}`);

@@ -27,5 +27,8 @@
     "install": "fitbit-install",
     "tolog": "node tolog.js",
     "debug": "fitbit"
+  },
+  "dependencies": {
+    "hammerjs": "^2.0.8"
   }
 }

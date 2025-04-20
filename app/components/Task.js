@@ -1,22 +1,23 @@
 import document from "document";
-import { addSwipeListener } from "../utils/swipeHandler";
+import { addGestureListener } from "../utils/gestureHandler";
 
 export const taskList = [
-  { title: "Buy milk", done: false },
-  { title: "Walk the dog", done: true },
-  { title: "Write JavaScript", done: false },
-  { title: "Upload to GitHub", done: false },
-  { title: "Plan dinner", done: true },
-  { title: "Read a book", done: false },
-  { title: "Go for a run", done: true },
-  { title: "Call mom", done: false },
-  { title: "Finish project", done: true },
-  { title: "Clean the house", done: false },
-  { title: "Buy groceries", done: true },
-  { title: "Pay bills", done: false },
-  { title: "Schedule appointment", done: true },
-  { title: "Organize files", done: false },
-  { title: "Plan vacation", done: true },
+  { title: "Milk", done: false },
+  { title: "Eggs", done: true },
+  { title: "Bread", done: false },
+  { title: "Butter", done: false },
+  { title: "Apples", done: true },
+  { title: "Bananas", done: false },
+  { title: "Orange juice", done: true },
+  { title: "Chicken breast", done: false },
+  { title: "Rice", done: true },
+  { title: "Pasta", done: false },
+  { title: "Tomato sauce", done: true },
+  { title: "Cheddar cheese", done: false },
+  { title: "Yogurt", done: true },
+  { title: "Cereal", done: false },
+  { title: "Toilet paper", done: true },
+
   // add more if needed
 ];
 
@@ -51,39 +52,22 @@ export function enableTaskSlot(task, index) {
   bg.style.fill = colors[index % colors.length];
   text.text = `${task.done ? "✔" : "---"} ${task.title}`;
 
-  // Add swipe and drag detection
-  let currentY = 0; // Track the current Y position of the task list
-  addSwipeListener(tap, (action, data) => {
+  // Add gesture detection
+  addGestureListener(tap, (action, { deltaX, deltaY }) => {
     switch (action) {
-      case "drag":
-        // Update the position of the task list container based on deltaY
-        taskListContainer.style.transform = `translateY(${currentY + data.deltaY}px)`;
-        break;
-      case "drag-end":
-        // Finalize the drag and update the current position
-        currentY += data.deltaY;
-        console.log("Drag ended. Final Y position:", currentY);
-        break;
       case "tap":
-        // Handle click (tap) event
+        console.log(`Tapped on task ${index}: ${task.title}`);
+        // Handle tap action (e.g., toggle task done state)
         task.done = !task.done;
         text.text = `${task.done ? "✔" : "---"} ${task.title}`;
-        console.log(`Task ${task.title} toggled.`);
         break;
-      case "hold-1s":
-        console.log(`Task ${task.title} held for 1 second.`);
+      case "hold":
+        // Handle hold action (e.g., show options menu)
         break;
-      case "hold-2s":
-        console.log(`Task ${task.title} held for 2 seconds.`);
-        break;
-      case "left":
-        console.log(`Task ${task.title} swiped left.`);
-        break;
-      case "right":
-        console.log(`Task ${task.title} swiped right.`);
+      case "swipe":
+        break; // Handle swipe action (e.g., delete task)
+      default:
         break;
     }
   });
 }
-
-

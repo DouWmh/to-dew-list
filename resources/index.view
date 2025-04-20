@@ -1,6 +1,7 @@
-<svg width="340" height="5110" pointer-events="visible">
+<svg id="root" width="340" height="5110" pointer-events="visible">
 
-<g id="taskListContainer">
+<g id="taskListContainer" pointer-events="visible">
+
   <rect id="bg0" x="10" y="60" width="320" height="40" rx="8" ry="8" fill="#444444" />
   <text id="task0" x="20" y="88" font-size="24" fill="white" text-length="250" />
   <rect id="tap0" x="0" y="60" width="348" height="40" fill="white" fill-opacity="0.01" pointer-events="visible" />
