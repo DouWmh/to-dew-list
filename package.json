@@ -22,7 +22,8 @@
     "defaultLanguage": "en-US"
   },
   "scripts": {
-    "build": "fitbit-build",
+    "build": "npm run generate-view && fitbit-build && npm run tolog",
+    "generate-view": "node generate-view.js",
     "install": "fitbit-install",
     "tolog": "node tolog.js",
     "debug": "fitbit"
