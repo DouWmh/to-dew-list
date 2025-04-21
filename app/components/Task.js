@@ -52,6 +52,8 @@ export function enableTaskSlot(task, index) {
   bg.style.fill = colors[index % colors.length];
   text.text = `${task.done ? "✔" : "---"} ${task.title}`;
 
+  let currentY = 0; // Initialize currentY to 0
+  let maxHeight = 0;
   // Add gesture detection
   addGestureListener(tap, (action, { deltaX, deltaY }) => {
     switch (action) {
@@ -65,6 +67,10 @@ export function enableTaskSlot(task, index) {
         // Handle hold action (e.g., show options menu)
         break;
       case "swipe":
+        console.log(`Swiped ${deltaY}`);
+        maxHeight = taskListContainer.getBBox().height; // Get the height of the task list container
+        currentY += deltaY; // Adjust the current position based on deltaY
+        taskListContainer.style.transform = `translateY(${currentY}px)`;
         break; // Handle swipe action (e.g., delete task)
       default:
         break;
